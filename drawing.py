@@ -144,3 +144,19 @@ def draw_panel_info(screen, score, highest_score):
         text_surface = font.render(line, True, TEXT_COLOR)
         screen.blit(text_surface, (20, y))
         y += 30
+
+def pauza(screen):
+    running = True
+    while running:
+        pg.draw.rect(screen, WHITE,(300, 300, 50, 200))
+        pg.draw.rect(screen, WHITE, (450, 300, 50, 200))
+        font = pg.font.SysFont('Cosmos', 66)
+        resume_text = font.render("click i to resume", True, RED)
+        screen.blit(resume_text, (SCREEN_WIDTH//2 - resume_text.get_width()//2, SCREEN_HEIGHT - 100))
+        pg.display.flip()
+        for event in pg.event.get():
+            if event.type == pg.QUIT:
+                exit(0)
+            elif event.type == pg.KEYDOWN:
+                if event.key == pg.K_i:
+                    running = False

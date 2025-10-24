@@ -200,19 +200,3 @@ class Tetris:
                                         [self.x + self.zoom * (j + self.figure.x) + 1,
                                             self.y + self.zoom * (i + self.figure.y) + 1,
                                             self.zoom - 2, self.zoom - 2])
-
-    def pauza(self, screen):
-        running = True
-        while running:
-            pg.draw.rect(screen, WHITE,(300, 300, 50, 200))
-            pg.draw.rect(screen, WHITE, (450, 300, 50, 200))
-            font = pg.font.SysFont('Cosmos', 66)
-            resume_text = font.render("click i to resume", True, RED)
-            screen.blit(resume_text, (SCREEN_WIDTH//2 - resume_text.get_width()//2, SCREEN_HEIGHT - 100))
-            pg.display.flip()
-            for event in pg.event.get():
-                if event.type == pg.QUIT:
-                    exit(0)
-                elif event.type == pg.KEYDOWN:
-                    if event.key == pg.K_i:
-                        running = False

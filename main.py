@@ -114,7 +114,7 @@ def main():
                 elif event.key == pg.K_k:
                     player.end_of_music()
                 elif event.key == pg.K_i:
-                    game.pauza(screen)
+                    pauza(screen)
 
 
             elif event.type == pg.KEYUP:
