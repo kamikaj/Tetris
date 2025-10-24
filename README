@@ -1,0 +1,23 @@
+#  Tetris
+
+Prosty klon klasycznej gry **Tetris**, napisany w Pythonie (z użyciem biblioteki Pygame).
+Część kodu odpowiedzialna za funkcjonoalność gry powstała na wzór kodu: https://gist.github.com/timurbakibayev/1f683d34487362b0f36280989c80960c
+Projekt stworzony w celach edukacyjnych i praktycznego ćwiczenia umiejętności programowania gier.
+Gra posiada system punktacji oraz zapis najlepszego wyniku.
+  
+  Struktura projektu:  
+Tetris/
+│
+├── main.py (główna pętla gry)
+├── music_player.py (klasa służąca do odtwarzania muzyki)
+├── settings.py 
+├── tetris.py (klasa zawierająca funkcjonalność gry)
+├── drawning.py (część zawierająca funkcje rysujące elementy gry)
+├── figure.py (klasa figury)
+├── resources/
+│   ├── highscore.json (plik przechowujący najwyższy dotychczasowy wynik)
+│   ├── background/ (folder z zdjęciami do tła)
+│   └── music/ (folder z muzyką)
+└── README.md
+
+Autor: kamikaj
