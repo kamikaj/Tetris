@@ -5,9 +5,9 @@ Część kodu odpowiedzialna za funkcjonoalność gry powstała na wzór kodu: h
 Projekt stworzony w celach edukacyjnych i praktycznego ćwiczenia umiejętności programowania gier.
 Gra posiada system punktacji oraz zapis najlepszego wyniku.
 
-  ![Zdjęcie menu głównego](1.png)
+  ![Zdjęcie menu głównego](Tetris/1.png)
 
-  ![Zdjęcie gry](2.png)
+  ![Zdjęcie gry](Tetris/2.png)
 
   Struktura projektu:  
 Tetris/
