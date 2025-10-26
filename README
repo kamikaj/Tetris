@@ -4,7 +4,11 @@ Prosty klon klasycznej gry **Tetris**, napisany w Pythonie (z użyciem bibliotek
 Część kodu odpowiedzialna za funkcjonoalność gry powstała na wzór kodu: https://gist.github.com/timurbakibayev/1f683d34487362b0f36280989c80960c
 Projekt stworzony w celach edukacyjnych i praktycznego ćwiczenia umiejętności programowania gier.
 Gra posiada system punktacji oraz zapis najlepszego wyniku.
-  
+
+  ![Zdjęcie menu głównego](1.png)
+
+  ![Zdjęcie gry](2.png)
+
   Struktura projektu:  
 Tetris/
 │
