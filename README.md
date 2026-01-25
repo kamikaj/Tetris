@@ -33,4 +33,4 @@ Tetris/
 └── README.md
 ```
 
-Autor: kamikaj
+Author: kamikaj
