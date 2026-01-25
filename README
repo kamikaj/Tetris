@@ -1,22 +1,16 @@
-# Tetris
+#Tetris
 
 A simple clone of the classic game **Tetris**, built with Python using the **Pygame** library.
 The core game logic was inspired by [this implementation](https://gist.github.com/timurbakibayev/1f683d34487362b0f36280989c80960c).
 This project was developed for educational purposes to practice game development and Python programming skills.
 The game features a scoring system and persistent high-score tracking.
 
-## Screenshots
-
+##Screenshots
 ![Main Menu](pictures/1.png)
-
 ![Gameplay](pictures/2.png)
 
----
-
-## Project Structure
-
+##Project Structure
 The project is organized into several modules for better readability and maintenance:
-
 ```text
 Tetris/
 │
